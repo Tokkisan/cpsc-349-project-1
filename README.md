@@ -1,8 +1,8 @@
 # cpsc-349-project-1
 
-By:
-Hori Nguyen
-Kathy Huynh
+By:  <br>
+Hori Nguyen  <br>
+Kathy Huynh  <br>
 Aaron Lee
 
 website link:
