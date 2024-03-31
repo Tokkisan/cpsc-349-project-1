@@ -63,6 +63,9 @@ buttons.forEach(button => {
         } else if (result_flavor === "Milk") {
           window.location.href = "milk.html"
         }
+        else{
+          alert("Quiz Result inconclusive. Ice Cream flavor has not been created yet. Please retake quiz")
+        }
       
     });
 
