@@ -54,21 +54,6 @@ buttons.forEach(button => {
         result_flavor = "Milk";
       }
       console.log(result_flavor);
-
-      document.getElementById('calculateButton').addEventListener('click', () => {
-        if (result_flavor === "Matcha") {
-          window.location.href = "matcha.html"
-        } else if (result_flavor === "Oreo") {
-          window.location.href = "oreo.html"
-        } else if (result_flavor === "Milk") {
-          window.location.href = "milk.html"
-        }
-        else{
-          alert("Quiz Result inconclusive. Ice Cream flavor has not been created yet. Please retake quiz")
-        }
-      
-    });
-
       
     }
     
@@ -82,5 +67,19 @@ buttons.forEach(button => {
     }
     
   });
+});
+
+document.getElementById('calculateButton').addEventListener('click', () => {
+  if (result_flavor === "Matcha") {
+    window.location.href = "matcha.html"
+  } else if (result_flavor === "Oreo") {
+    window.location.href = "oreo.html"
+  } else if (result_flavor === "Milk") {
+    window.location.href = "milk.html"
+  }
+  else{
+    alert("Quiz Result inconclusive. Ice Cream flavor has not been created yet. Please retake quiz")
+  }
+
 });
 
